@@ -1,0 +1,17 @@
+.container{
+  text-align: center; /*Center all text elements */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  display: block; /* Ensure no extra inline spacing */
+  margin: 0 auto; /* Center the image */
+  max-width: 100%; /* Scale down if image is too large */
+}
+
+/* h1, h2,p{
+  text-align: center;
+} */
